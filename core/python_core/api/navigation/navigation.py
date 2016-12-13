@@ -65,7 +65,7 @@ def get_current_position():
 
 
 # subscriber method callback from /move_base/status
-def callback_direction_status(data):
+def __callback_direction_status(data):
     global current_direction
     current_direction = data.direction
     return current_direction
@@ -73,12 +73,12 @@ def callback_direction_status(data):
 
 # subscriber method from /move_base/status
 def listener_direction_status():
-    rospy.Subscriber((robot_namespace + "/direction_status"), DirectionStatus, callback_direction_status)
+    rospy.Subscriber((robot_namespace + "/direction_status"), DirectionStatus, __callback_direction_status)
     return
 
 
 # get current position of robot using tf translation
-def get_current_direction():
+def __get_current_direction():
     listener_direction_status()
 
 
@@ -120,14 +120,14 @@ def get_random_goal(exp_type):
 
 
 # subscriber method callback from /move_base/status
-def callback_goal_status(data):
+def __callback_goal_status(data):
     global current_goal_status
     current_goal_status = data.status_list[len(data.status_list) - 1].status
 
 
 # subscriber method from /move_base/status
 def listener_goal_status():
-    rospy.Subscriber((robot_namespace + "move_base/status"), GoalStatusArray, callback_goal_status)
+    rospy.Subscriber((robot_namespace + "move_base/status"), GoalStatusArray, __callback_goal_status)
 
 
 # subscriber method callback from /move_base/global_costmap/costmap
