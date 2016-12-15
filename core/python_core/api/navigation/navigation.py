@@ -2,7 +2,6 @@
 python_core, 12/8/16, Sajad Azami
 Navigation API for Python
 """
-
 import math
 import random
 import sys
@@ -189,7 +188,7 @@ def move_to(pos_x, pos_y, pos_z, ornt_w, ornt_x, ornt_y, ornt_z):
     # pub.publish(pose_stamped)
 
 
-# TODO to be completedd
+# TODO to be completed
 # publishes goal on move_base/goal using SimpleActionClient
 # inputs: position x, y, z, orientation w, x, y, z
 def frontier_exploration_publish_points():
