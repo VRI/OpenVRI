@@ -1,0 +1,5 @@
+<launch>
+	 <node name="config_server" pkg="config_server" type="config_server" output="screen" required="true"/>
+                <param name="config_path" value="$(find config_server)/launch/"/>
+	<node pkg="process_name" type="process_name_node" name="process_name" output="screen"/>
+</launch>

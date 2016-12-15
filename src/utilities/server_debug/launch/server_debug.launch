@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="server_debug" type = "server_debug_node" name = "server_debug" output = "screen" />
+</launch>	

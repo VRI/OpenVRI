@@ -1,0 +1,19 @@
+- time: 1
+  stand_swing:
+    position: [1, 1, 1]
+    orientation: [2, 2, 2]
+  stand_com:
+    position: [3, 3, 3]
+    orientation: [4, 4, 4]
+  left_hand: [5, 5, 5]
+  right_hand: [6, 6, 6]
+
+- time: 3
+  stand_swing:
+    position: [1, 1, 1]
+    orientation: [2, 2, 2]
+  stand_com:
+    position: [3, 3, 3]
+    orientation: [4, 4, 4]
+  left_hand: [1, 1, 1]
+  right_hand: [2, 2, 2]

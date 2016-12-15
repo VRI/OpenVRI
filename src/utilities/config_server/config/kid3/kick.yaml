@@ -1,0 +1,56 @@
+- time: 0
+  stand_swing:
+   position: [0,-105, 0]
+   orientation: [0, 0, 0] 
+  stand_com:
+   position: [0,-52.5 , 380]
+   orientation: [0, 0, 0]
+  left_hand: [0.346680, -1.555457, -1.891398]
+  right_hand: [0.398835, 1.362175, -1.966563]
+- time: 0.5
+  stand_swing:
+   position: [0, -105, 0]
+   orientation: [-0.05, 0, 0] 
+  stand_com:
+   position: [0, -45, 380]
+   orientation: [-0.05, 0, 0]
+  left_hand: [0.346680, -1.555457, -1.891398]
+  right_hand: [0.398835, 1.362175, -1.966563]
+- time: 1
+  stand_swing:
+   position: [0, -105, 0]
+   orientation: [-0.05, 0, 0]
+  stand_com:
+   position: [0, -35, 380]
+   orientation: [-0.05, 0, 0]
+  left_hand: [0.346680, -1.555457, -1.891398]
+  right_hand: [0.398835, 1.362175, -1.966563]
+- time: 1.5
+  stand_swing:
+   position: [-30, -105, 30]
+   orientation: [-0.1, 0, 0]
+  stand_com:
+   position: [0, -35, 380]
+   orientation: [-0.1, 0, 0]
+  left_hand: [0.346680, -1.555457, -1.891398]
+  right_hand: [0.398835, 1.362175, -1.966563]
+- time: 2
+  stand_swing:
+   position: [30,-105, 30]
+   orientation: [-0.1, 0, 0]
+  stand_com:
+   position: [0,-35 , 380]
+   orientation: [-0.1, 0, 0]
+  left_hand: [0.346680, -1.555457, -1.891398]
+  right_hand: [0.398835, 1.362175, -1.966563]
+- time: 2.5
+  stand_swing:
+   position: [0,-105, 0]
+   orientation: [0, 0, 0]
+  stand_com:
+   position: [0,-52.5 , 310]
+   orientation: [0, 0, 0]
+  left_hand: [0.346680, -1.555457, -1.891398]
+  right_hand: [0.398835, 1.362175, -1.966563]
+
+

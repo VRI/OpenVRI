@@ -1,0 +1,14 @@
+- time: 1
+  left_leg: [1, 1, 1, 1, 1, 1]
+  right_leg: [2, 2, 2, 2, 2, 2]
+  left_leg: [3, 3, 3]
+  right_hand: [4, 4, 4]
+  head: [5, 5]
+
+- time: 3
+  left_leg: [1, 1, 1, 1, 1, 1]
+  right_leg: [2, 2, 2, 2, 2, 2]
+  left_leg: [3, 3, 3]
+  right_hand: [4, 4, 4]
+  head: [5, 5]
+

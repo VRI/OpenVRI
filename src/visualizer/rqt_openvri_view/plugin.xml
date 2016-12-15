@@ -1,0 +1,20 @@
+<library path="lib/librqt_openvri_view">
+  <class name="rqt_openvri_view/OpenVriView" type="rqt_openvri_view::OpenVriView" base_class_type="rqt_gui_cpp::Plugin">
+    <description>
+      An example Python GUI plugin to create a great user interface.
+    </description>
+    <qtgui>
+<!--
+     <group>
+        <label>Visualization</label>
+        <icon type="theme">folder</icon>
+        <statustip>Plugins related to visualization.</statustip>
+      </group>
+
+-->
+      <label>openvri View</label>
+      <icon type="theme">image-x-generic</icon>
+      <statustip>Great user interface to provide real value.</statustip>
+    </qtgui>
+  </class>
+</library>

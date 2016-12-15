@@ -1,0 +1,19 @@
+- time: 0
+  left_leg: [0, 10, 0, 0, 10, 0]
+  right_leg: [0, 0, 0, 0, 10, 0] 
+  left_hand: [5, -10.5, 100]
+  right_hand: [0, 0, 0]
+  head: [0, 0]
+- time: 10
+  left_leg: [10, 10, 0, 0, 10, 0]
+  right_leg: [0, 0, 0, 0, 10, 0] 
+  left_hand: [5, -10.5, 100]
+  right_hand: [0, 0, 0]
+  head: [10, 20]
+- time: 1
+  left_leg: [20, 10, 0, 0, 10, 0]
+  right_leg: [0, 0, 0, 0, 10, 0] 
+  left_hand: [5, -10.5, 100]
+  right_hand: [0, 0, 0]
+  head: [200, 300]
+

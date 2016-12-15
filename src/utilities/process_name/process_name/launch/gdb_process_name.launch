@@ -1,0 +1,3 @@
+<launch>
+	<node pkg="process_name" type="process_name_node" name="process_name" output="screen" launch-prefix = "cgdb --args"/>
+</launch>
